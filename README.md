@@ -38,7 +38,7 @@ Before running this application, make sure you have:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/Varsh70-31/weather-app.git
    cd weather-app
    ```
 
@@ -54,7 +54,7 @@ Before running this application, make sure you have:
    ```
 
 4. **Get OpenWeatherMap API Key**
-   - Go to [OpenWeatherMap API](https://openweathermap.org/api)
+   - Go to [OpenWeatherMap API]
    - Sign up for a free account
    - Generate your API key
    - Wait 10-60 minutes for activation
