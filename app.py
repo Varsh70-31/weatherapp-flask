@@ -9,7 +9,7 @@ app = Flask(__name__)
 # OpenWeatherMap API configuration
 # Get your free API key from: https://openweathermap.org/api
 API_KEY = os.environ.get('OPENWEATHER_API_KEY', 'your_actual_api_key_here')
-BASE_URL = 'https://api.openweathermap.org/data/2.5'
+BASE_URL = 'https://api.openweathermap.org'
 
 def get_weather_data(city):
     """Fetch current weather and forecast data for a city"""
