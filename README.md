@@ -15,9 +15,6 @@ A beautiful, responsive web application that provides current weather informatio
 - **🎨 Modern UI**: Beautiful glassmorphism design with smooth animations
 - **⚡ Real-time Data**: Powered by OpenWeatherMap API
 
-## 🚀 Demo
-
-Try the live demo: [Weather App Demo](#) *(Add your deployment URL here)*
 
 ## 🛠️ Technologies Used
 
@@ -151,32 +148,6 @@ weather-app/
 - Error handling with user-friendly messages
 - Responsive design for all devices
 - Hover effects and micro-interactions
-
-## 🚀 Deployment
-
-### Heroku Deployment
-
-1. **Create Procfile**
-   ```
-   web: python app.py
-   ```
-
-2. **Create requirements.txt**
-   ```
-   Flask==2.3.3
-   requests==2.31.0
-   gunicorn==21.2.0
-   ```
-
-3. **Deploy to Heroku**
-   ```bash
-   heroku create your-weather-app
-   heroku config:set OPENWEATHER_API_KEY='your_api_key'
-   git push heroku main
-   ```
-
-### Railway/Render Deployment
-Set the `OPENWEATHER_API_KEY` environment variable in your platform's dashboard.
 
 ## 🐛 Troubleshooting
 
